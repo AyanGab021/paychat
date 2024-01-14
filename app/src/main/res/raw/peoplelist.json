@@ -1,0 +1,277 @@
+{
+  "people": [
+    {
+      "person_id": 3130,
+      "first_name": "Damien",
+      "last_name": "Burks",
+      "mobile": "09991230000",
+      "age": 21,
+      "address": "Cainta, Rizal",
+      "email": "damien.burks@gmail.com"
+    },
+    {
+      "person_id": 3297,
+      "first_name": "Rosella",
+      "last_name": "Avila",
+      "mobile": "09991230001",
+      "age": 17,
+      "address": "Sta. Lucia, Pasig City",
+      "email": "rosella.avilla@gmail.com"
+    },
+    {
+      "person_id": 2401,
+      "first_name": "Elvin",
+      "last_name": "Claude",
+      "mobile": "09991230002",
+      "age": 32,
+      "address": "Quezon City, Metro Manila",
+      "email": "elvin.claude@gmail.com"
+    },
+    {
+      "person_id": 4150,
+      "first_name": "Angelina",
+      "last_name": "Sims",
+      "mobile": "09991230003",
+      "age": 23,
+      "address": "Paranaque City, Metro Manila",
+      "email": "angelina.sims@gmail.com"
+    },
+    {
+      "person_id": 2811,
+      "first_name": "Florence",
+      "last_name": "Deirdre",
+      "mobile": "09991230004",
+      "age": 19,
+      "address": "Makati City, Metro Manila",
+      "email": "florence.deirdre@gmail.com"
+    }
+  ],
+
+  "friendlist": [
+    {
+      "person_id": 3130,
+      "friends": [
+        {
+          "first_name": "Friend1",
+          "last_name": "Friend1LastName",
+          "mobile": "09991111001",
+          "age": 28,
+          "address": "Friend1Address",
+          "email": "friend1@example.com"
+        },
+        {
+          "first_name": "Friend2",
+          "last_name": "Friend2LastName",
+          "mobile": "09991111002",
+          "age": 25,
+          "address": "Friend2Address",
+          "email": "friend2@example.com"
+        },
+        {
+          "first_name": "Friend3",
+          "last_name": "Friend3LastName",
+          "mobile": "09991111003",
+          "age": 29,
+          "address": "Friend3Address",
+          "email": "friend3@example.com"
+        },
+        {
+          "first_name": "Friend4",
+          "last_name": "Friend4LastName",
+          "mobile": "09991111004",
+          "age": 22,
+          "address": "Friend4Address",
+          "email": "friend4@example.com"
+        },
+        {
+          "first_name": "Friend5",
+          "last_name": "Friend5LastName",
+          "mobile": "09991111005",
+          "age": 35,
+          "address": "Friend5Address",
+          "email": "friend5@example.com"
+        }
+      ]
+    },
+    {
+      "person_id": 3297,
+      "friends": [
+        {
+          "first_name": "Friend6",
+          "last_name": "Friend6LastName",
+          "mobile": "09991111006",
+          "age": 26,
+          "address": "Friend6Address",
+          "email": "friend6@example.com"
+        },
+        {
+          "first_name": "Friend7",
+          "last_name": "Friend7LastName",
+          "mobile": "09991111007",
+          "age": 24,
+          "address": "Friend7Address",
+          "email": "friend7@example.com"
+        },
+        {
+          "first_name": "Friend8",
+          "last_name": "Friend8LastName",
+          "mobile": "09991111008",
+          "age": 31,
+          "address": "Friend8Address",
+          "email": "friend8@example.com"
+        },
+        {
+          "first_name": "Friend9",
+          "last_name": "Friend9LastName",
+          "mobile": "09991111009",
+          "age": 27,
+          "address": "Friend9Address",
+          "email": "friend9@example.com"
+        },
+        {
+          "first_name": "Friend10",
+          "last_name": "Friend10LastName",
+          "mobile": "09991111010",
+          "age": 29,
+          "address": "Friend10Address",
+          "email": "friend10@example.com"
+        }
+      ]
+    },
+    {
+      "person_id": 2401,
+      "friends": [
+        {
+          "first_name": "Friend11",
+          "last_name": "Friend11LastName",
+          "mobile": "09991111011",
+          "age": 33,
+          "address": "Friend11Address",
+          "email": "friend11@example.com"
+        },
+        {
+          "first_name": "Friend12",
+          "last_name": "Friend12LastName",
+          "mobile": "09991111012",
+          "age": 26,
+          "address": "Friend12Address",
+          "email": "friend12@example.com"
+        },
+        {
+          "first_name": "Friend13",
+          "last_name": "Friend13LastName",
+          "mobile": "09991111013",
+          "age": 29,
+          "address": "Friend13Address",
+          "email": "friend13@example.com"
+        },
+        {
+          "first_name": "Friend14",
+          "last_name": "Friend14LastName",
+          "mobile": "09991111014",
+          "age": 24,
+          "address": "Friend14Address",
+          "email": "friend14@example.com"
+        },
+        {
+          "first_name": "Friend15",
+          "last_name": "Friend15LastName",
+          "mobile": "09991111015",
+          "age": 36,
+          "address": "Friend15Address",
+          "email": "friend15@example.com"
+        }
+      ]
+    },
+    {
+      "person_id": 4150,
+      "friends": [
+        {
+          "first_name": "Friend16",
+          "last_name": "Friend16LastName",
+          "mobile": "09991111016",
+          "age": 24,
+          "address": "Friend16Address",
+          "email": "friend16@example.com"
+        },
+        {
+          "first_name": "Friend17",
+          "last_name": "Friend17LastName",
+          "mobile": "09991111017",
+          "age": 22,
+          "address": "Friend17Address",
+          "email": "friend17@example.com"
+        },
+        {
+          "first_name": "Friend18",
+          "last_name": "Friend18LastName",
+          "mobile": "09991111018",
+          "age": 30,
+          "address": "Friend18Address",
+          "email": "friend18@example.com"
+        },
+        {
+          "first_name": "Friend19",
+          "last_name": "Friend19LastName",
+          "mobile": "09991111019",
+          "age": 27,
+          "address": "Friend19Address",
+          "email": "friend19@example.com"
+        },
+        {
+          "first_name": "Friend20",
+          "last_name": "Friend20LastName",
+          "mobile": "09991111020",
+          "age": 29,
+          "address": "Friend20Address",
+          "email": "friend20@example.com"
+        }
+      ]
+    },
+    {
+      "person_id": 2811,
+      "friends": [
+        {
+          "first_name": "Friend21",
+          "last_name": "Friend21LastName",
+          "mobile": "09991111021",
+          "age": 32,
+          "address": "Friend21Address",
+          "email": "friend21@example.com"
+        },
+        {
+          "first_name": "Friend22",
+          "last_name": "Friend22LastName",
+          "mobile": "09991111022",
+          "age": 25,
+          "address": "Friend22Address",
+          "email": "friend22@example.com"
+        },
+        {
+          "first_name": "Friend23",
+          "last_name": "Friend23LastName",
+          "mobile": "09991111023",
+          "age": 28,
+          "address": "Friend23Address",
+          "email": "friend23@example.com"
+        },
+        {
+          "first_name": "Friend24",
+          "last_name": "Friend24LastName",
+          "mobile": "09991111024",
+          "age": 22,
+          "address": "Friend24Address",
+          "email": "friend24@example.com"
+        },
+        {
+          "first_name": "Friend25",
+          "last_name": "Friend25LastName",
+          "mobile": "09991111025",
+          "age": 35,
+          "address": "Friend25Address",
+          "email": "friend25@example.com"
+        }
+      ]
+    }
+  ]
+}

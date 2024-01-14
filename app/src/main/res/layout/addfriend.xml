@@ -1,0 +1,150 @@
+<!-- dialog_add_friends.xml -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_marginTop="8dp"
+
+            android:gravity="center_vertical"
+            android:text="Add Friend"
+            android:textColor="@color/green"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.083"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.047"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/plogos" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/fNameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Frist Name"
+        android:drawableLeft="@drawable/cards"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+    <EditText
+        android:id="@+id/lNameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:drawableLeft="@drawable/cards"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:hint="Last Name"
+        app:layout_constraintTop_toBottomOf="@+id/fNameTxt"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/numTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="Number"
+        android:inputType="number"
+        android:drawableLeft="@drawable/phone"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/lNameTxt"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/agetTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Age"
+        android:drawableLeft="@drawable/cards"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/numTxt"
+        tools:layout_editor_absoluteX="16dp"
+
+        tools:layout_editor_absoluteY="159dp" />
+
+
+    <EditText
+        android:id="@+id/emailTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="sample@gmail.com"
+        android:drawableLeft="@drawable/emails"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="42dp"
+        app:layout_constraintTop_toBottomOf="@+id/agetTxt"
+        tools:layout_editor_absoluteY="315dp" />
+
+
+    <EditText
+        android:id="@+id/addressTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="Address"
+        android:drawableLeft="@drawable/location"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/emailTxt"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Add Friend"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="177dp"
+        app:layout_constraintTop_toBottomOf="@+id/addressTxt"
+        tools:layout_editor_absoluteY="482dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
